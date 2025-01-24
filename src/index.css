@@ -1,2 +1,12 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+/* Customizing themes */
+[data-theme="light"] {
+    --primary: #4caf50; 
+    --secondary: #8e44ad;
+    --accent: #00bcd4;
+    --neutral: #333333;
+    --base-100: #ffffff; 
+  }
+  
