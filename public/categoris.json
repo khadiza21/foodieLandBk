@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "image": "../src/assets/images/categories/image 25.png",
+      "name": "Breakfast"
+    },
+    {
+      "id": 2,
+      "image": "../src/assets/images/categories/Group 879.png",
+      "name": "Vegan"
+    },
+    {
+      "id": 3,
+      "image": "../src/assets/images/categories/image 21.png",
+      "name": "Meat"
+    },
+    {
+      "id": 4,
+      "image": "../src/assets/images/categories/image 22.png",
+      "name": "Dessert"
+    },
+    {
+      "id": 5,
+      "image": "../src/assets/images/categories/image 23.png",
+      "name": "Lunch"
+    },
+    {
+      "id": 5,
+      "image": "../src/assets/images/categories/image 24.png",
+      "name": "Chocolate"
+    }
+  ]
+  
