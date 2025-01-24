@@ -1,0 +1,12 @@
+#banner .bannerLeft, .bannerRight{
+    height: 640px;
+}
+#banner .bannerLeft{
+    background-color:#E7FAFE;
+    width: 620px;
+
+}
+#banner .bannerRight{
+   
+width: 660px;
+}

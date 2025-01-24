@@ -1,9 +1,12 @@
 @import "tailwindcss";
 @plugin "daisyui";
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
 
 /* Customizing themes */
 [data-theme="light"] {
-    --primary: #4caf50; 
+    --primary: #E7FAFE; 
     --secondary: #8e44ad;
     --accent: #00bcd4;
     --neutral: #333333;
