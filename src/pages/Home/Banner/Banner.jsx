@@ -51,7 +51,7 @@ const Banner = () => {
 
     return (
         <>
-            <div className="w-full mb-30">
+            <div className="w-full mb-24">
                 <Slider {...settings}>
                     {slides.map((slide) => (
                         <div key={slide.id} className="p-4">

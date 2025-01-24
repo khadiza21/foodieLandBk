@@ -1,0 +1,59 @@
+.aboutKitchen {
+  height: 597px;
+  top: 3234px;
+  left: 80px;
+}
+.aboutKitchen .aboutKitchenLeft {
+
+  width: 526px;
+  height: 356px;
+  top: 3403px;
+  left: 80px;
+  gap: 0px;
+  border-radius: 16px 0px 0px 0px;
+  opacity: 0px;
+}
+.aboutKitchenLeft h3 {
+  width: 526px;
+  height: 116px;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 58.09px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #000000;
+}
+.aboutKitchenLeft p {
+  width: 508px;
+  height: 84px;
+  top: 3543px;
+  left: 80px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.aboutKitchenLeft button {
+  width: 180px;
+  height: 60px;
+  top: 3699px;
+  left: 80px;
+  border-radius: 16px;
+  background-color: var(--neutral);
+  color: var(--base-100);
+}
+.aboutKitchenRight img{
+    width: 660px;
+height: 597px;
+top: 3234px;
+left: 650px;
+gap: 0px;
+opacity: 0px;
+
+}

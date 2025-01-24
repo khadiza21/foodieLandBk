@@ -47,7 +47,7 @@ const Categories = () => {
     return (
         <>
 
-            <section className='categories mb-30'>
+            <section className='categories mb-24'>
                 <header className='w-full flex justify-between items-center categoriesHeader'><h3>Categories</h3> <button className="btn">View All Categories</button></header>
 
 
