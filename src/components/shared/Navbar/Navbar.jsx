@@ -15,8 +15,10 @@ const Navbar = () => {
           paddingBottom: "1rem",
         }}
       >
-        <NavLink to="/home" style={style}>Home</NavLink>
+        <NavLink to="/" style={style}>Home</NavLink>
         <NavLink to="/about" style={style}>About</NavLink>
+    
+   
       </nav>
         </div>
     );
