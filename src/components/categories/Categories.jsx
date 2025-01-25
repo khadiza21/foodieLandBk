@@ -36,7 +36,7 @@ const Categories = () => {
             gradient: "180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 100%"
         },
         {
-            id: 5,
+            id: 6,
             image: "../src/assets/images/categories/image 24.png",
             name: "Chocolate",
             gradient: "180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 100%"

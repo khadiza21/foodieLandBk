@@ -1,0 +1,68 @@
+.newsletter {
+  background-color: var(--primary);
+  height: 442px;
+  border-radius: 60px;
+  position: relative;
+}
+.newsletter .imageONe {
+  position: absolute;
+  width: 409.54px;
+  height: 400.08px;
+
+  top: 38px;
+  left: 41%;
+  transform: translate(-50%, -50%);
+}
+.newsletter .imageTwo {
+  position: absolute;
+  width: 470px;
+  height: 355.62px;
+  top: -115px;
+  left: 30px;
+ 
+}
+.newsletterBox {
+  width: 620px;
+  height: 282px;
+}
+.newsletterBox h3 {
+  width: 589px;
+  height: 58px;
+  top: 6223px;
+  left: 425px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 58.09px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.newsletterBox p {
+  width: 620px;
+  height: 56px;
+  top: 6305px;
+  left: 410px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.newsletterBox form {
+  width: 480px;
+  height: 80px;
+  border-radius: 24px;
+ background-color: var(--base-100);
+}
+.newsletterBox form button {
+  width: 160px;
+  height: 60px;
+  border-radius: 16px;
+}
