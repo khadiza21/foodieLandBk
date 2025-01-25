@@ -1,5 +1,5 @@
 import Recipe from "./Recipe";
-
+import './Recipes.css'
 
 
 const Recipes = () => {
@@ -83,10 +83,13 @@ const Recipes = () => {
         },
     ]
     return (
-        <div>
+        <div id="recipes" className="mb-24">
 
-            <div className="container mx-auto p-4">
-
+            <div className="container mx-auto py-4">
+                <div className="recipesHeader flex flex-col items-center mb-5 pb-5">
+                    <h3 className="my-5">Simple and tasty recipes</h3>
+                    <p className="mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem sint fuga quas obcaecati veniam deserunt.</p>
+                </div>
                 <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
                     {recipes.map((item, index) =>
                         item.isAd ? (
@@ -115,7 +118,7 @@ const Recipes = () => {
                 </div>
 
 
-             
+
             </div>
         </div>
     );
