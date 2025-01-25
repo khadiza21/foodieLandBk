@@ -1,0 +1,40 @@
+.banner {
+  /* background-color: var(--accent); */
+}
+.slideBox {
+  width: 1280px;
+  height: 640px;
+  border: 14px solid black;
+}
+.slideBox h2 {
+  width: 520px;
+  height: 154px;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 77.45px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  color: var(--neutral);
+}
+.slideBox p {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+}
+.badgeIcon {
+  background-color: rgba(0, 0, 0, 0.103);
+}
+#banner .bannerLeft,
+.bannerRight {
+  height: 640px;
+}
+#banner .bannerLeft {
+  background-color: #00a3c4;
+  width: 620px;
+  color: #ffffff31;
+}
+#banner .bannerRight {
+  width: 660px;
+}
