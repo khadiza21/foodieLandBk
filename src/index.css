@@ -4,12 +4,38 @@
 @import "slick-carousel/slick/slick-theme.css";
 
 
-/* Customizing themes */
 [data-theme="light"] {
-    --primary: #E7FAFE; 
-    --secondary: #9c9c9c;
-    --accent: #00bcd4;
-    --neutral: #000000;
-    --base-100: #ffffff; 
+  --primary: #e7fafe;
+  --secondary: #9c9c9c;
+  --accent: #00bcd4;
+  --neutral: #000000;
+  --base-100: #ffffff;
+}
+
+.container {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+@media (min-width: 320px) {
+  .container {
+    padding-left: 12px;
+    padding-right: 12px;
   }
-  
+}
+@media (min-width: 640px) {
+  .container {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}

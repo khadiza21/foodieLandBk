@@ -1,5 +1,6 @@
-import AboutKitchen from "../../components/categories/AboutKitchen/AboutKitchen";
+import AboutKitchen from "../../components/AboutKitchen/AboutKitchen";
 import Categories from "../../components/categories/Categories";
+import Instagram from "../../components/Instagram/Instagram";
 import Newsletter from "../../components/Newsletter/Newsletter";
 import Recipes from "../../components/recipes/Recipes";
 import Banner from "./Banner/Banner";
@@ -11,6 +12,7 @@ const Home = () => {
        <Categories />
        <Recipes />
        <AboutKitchen />
+       <Instagram />
        <Newsletter />
         </>
     );

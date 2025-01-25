@@ -47,7 +47,8 @@ const Categories = () => {
     return (
         <>
 
-            <section className='categories mb-24'>
+            <section className='container'>
+                <div className='categories mb-24'>
                 <header className='w-full flex justify-between items-center categoriesHeader'><h3>Categories</h3> <button className="btn">View All Categories</button></header>
 
 
@@ -67,7 +68,7 @@ const Categories = () => {
                             <p className="text-lg font-semibold">{category.name}</p>
                         </div>
                     ))}
-                </div>
+                </div></div>
             </section>
         </>
 

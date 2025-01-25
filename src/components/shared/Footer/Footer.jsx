@@ -1,7 +1,7 @@
 
 const Footer = () => {
     return (
-        <div className="  mt-24">
+        <div className="container  mt-24">
             <footer className="footer py-5 flex flex-wrap md:flex-nowrap items-center justify-between border-b border-slate-200 gap-4">
               
                 <div className="flex-1">

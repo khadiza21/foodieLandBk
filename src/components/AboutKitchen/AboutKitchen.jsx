@@ -1,7 +1,8 @@
-import aboutKitchen from '../../../assets/images/Group 880.png';
+import aboutKitchen from '../../assets/images/Group 880.png';
 import './AboutKitchen.css'
 const AboutKitchen = () => {
     return (
+        <div className='container'>
         <div className='mb-24 aboutKitchen'>
             <div className="card lg:card-side    ">
                  <div className="card-body flex justify-center">
@@ -20,7 +21,7 @@ const AboutKitchen = () => {
                 </figure>
                
             </div>
-        </div>
+        </div></div>
     );
 };
 

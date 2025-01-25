@@ -3,7 +3,7 @@ import newsletterPlate from '../../assets/images/Photo-plate.png'
 import './Newsletter.css'
 const Newsletter = () => {
     return (
-        <div className='newsletter'>
+        <div className='newsletter container'>
             <div className=" py-16 px-4 md:px-8">
                 <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 items-center gap-6">
 
