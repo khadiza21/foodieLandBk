@@ -1,0 +1,30 @@
+.instagram {
+  background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #e7f9fd 100%);
+}
+.instagramHeader {
+  text-align: center;
+}
+.instagramHeader h3 {
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 58.09px;
+  letter-spacing: -0.04em;
+  text-align: center;
+  color: var(--neutral);
+}
+.instagramHeader p {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: var(--secondary);
+  text-align: center;
+}
+.instagram .visitButton {
+  width: 229px;
+  height: 60px;
+  border-radius: 16px;
+  background-color: var(--neutral);
+  color: var(--base-100);
+}
