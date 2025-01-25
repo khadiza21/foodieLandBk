@@ -12,7 +12,7 @@ const SpecialRecipes = () => {
 
   return (
     <div className="container ">
-      <div className="specialRecipesHeader my-10 py-10 flex justify-between items-center gap-5">
+      <div className="specialRecipesHeader my-5 py-10 flex justify-between items-center gap-5">
         <h3>Try this delicious recipe to make your day</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi

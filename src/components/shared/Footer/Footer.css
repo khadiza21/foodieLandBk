@@ -1,0 +1,15 @@
+@media (max-width: 480px) {
+  .footerOne {
+    flex-direction: column;
+  }
+}
+@media (max-width: 320px) {
+  .footerSocialIcon {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .footerOne {
+    flex-direction: column;
+  }
+}

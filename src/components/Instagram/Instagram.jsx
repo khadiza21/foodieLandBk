@@ -23,7 +23,7 @@ const Instagram = () => {
                     <h3 className='mb-5'>Check out @foodieland on Instagram</h3>
                     <p className='mb-5'>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
                     {instagramPostList.map((post) => (
                         <InstaPost
                             key={post.id}

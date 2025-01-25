@@ -1,8 +1,8 @@
-
+import './Footer.css'
 const Footer = () => {
     return (
         <div className="container  mt-24">
-            <footer className="footer py-5 flex flex-wrap md:flex-nowrap items-center justify-between border-b border-slate-200 gap-4">
+            <footer className="footer footerOne py-5 flex flex-wrap md:flex-nowrap items-center justify-between border-b border-slate-200 gap-4">
               
                 <div className="flex-1">
                     <h4 className="text-xl font-bold">
@@ -32,7 +32,7 @@ const Footer = () => {
                 </p>
 
 
-                <nav className="flex gap-4 justify-center md:justify-end">
+                <nav className="flex gap-4 justify-center md:justify-end footerSocialIcon">
                     <a>
                         <svg
                             xmlns="http://www.w3.org/2000/svg"

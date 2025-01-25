@@ -10,15 +10,31 @@ import SpecialRecipes from "../../components/specialRecipe/SpecialRecipes";
 const Home = () => {
     return (
         <>
-       <Banner />
-       <Categories />
-       <Recipes />
-       <AboutKitchen />
-       <Instagram />
-       <SpecialRecipes />
-       <Newsletter />
+       {/*<Hero />
+        <Categories />
+      <Recipes />,
+       <AboutKitchen />,
+       <Instagram />,
+       <SpecialRecipes />,
+       <Newsletter />, */}
+    <Banner />
         </>
     );
 };
 
 export default Home;
+// @media (max-width: 1024px) {
+ 
+// }
+// @media (max-width: 768px) {
+
+  
+// }
+
+// @media (max-width: 480px) {
+
+// }
+
+// @media (max-width: 320px) {
+
+// }

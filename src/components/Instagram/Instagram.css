@@ -28,3 +28,37 @@
   background-color: var(--neutral);
   color: var(--base-100);
 }
+ @media (max-width: 1024px) {
+  .instagramHeader h3 {
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 48.09px;
+  }
+ }
+@media (max-width: 768px) {
+  .instagramHeader h3 {
+
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 48.09px;
+  
+  }
+}
+@media (max-width: 480px) {
+  .instagramHeader h3 {
+
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 28.09px;
+  
+  }
+}
+@media (max-width: 320px) {
+  .instagramHeader h3 {
+
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18.09px;
+  
+  }
+}
