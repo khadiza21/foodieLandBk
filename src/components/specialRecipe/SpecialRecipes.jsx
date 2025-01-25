@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./SpecialRecipe.css";
-import SpecialRecipe from "./SpecialRecipe";
+import Recipe from "../recipes/Recipe";
 const SpecialRecipes = () => {
   const [specialRecipetList, setspecialRecipetList] = useState([]);
 
@@ -22,7 +22,7 @@ const SpecialRecipes = () => {
       <div>
         <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           {specialRecipetList.map((item) => (
-            <SpecialRecipe
+            <Recipe
               key={item.id}
               image={item.image}
               title={item.title}
