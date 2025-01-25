@@ -52,7 +52,7 @@ const Categories = () => {
                 <header className='w-full flex justify-between items-center categoriesHeader'><h3>Categories</h3> <button className="btn">View All Categories</button></header>
 
 
-                <div className="grid grid-flow-col justify-between gap-5 categoryBox my-[40px]">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-5 categoryBox my-[40px]">
 
                     {categories.map((category) => (
                         <div key={category.id} className="p-4 bg-gray-100 rounded shadow  flex items-center justify-evenly flex-col category cursor-pointer"
@@ -68,7 +68,8 @@ const Categories = () => {
                             <p className="text-lg font-semibold">{category.name}</p>
                         </div>
                     ))}
-                </div></div>
+                </div>
+                </div>
             </section>
         </>
 

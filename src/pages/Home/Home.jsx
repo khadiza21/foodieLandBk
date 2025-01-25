@@ -10,14 +10,14 @@ import SpecialRecipes from "../../components/specialRecipe/SpecialRecipes";
 const Home = () => {
     return (
         <>
-       {/*<Hero />
-        <Categories />
-      <Recipes />,
-       <AboutKitchen />,
-       <Instagram />,
-       <SpecialRecipes />,
-       <Newsletter />, */}
-    <Banner />
+       {/* <Banner />
+       
+      <Recipes />
+       <AboutKitchen />
+       <Instagram />
+       <SpecialRecipes />
+       <Newsletter /> */}
+     <Categories />
         </>
     );
 };

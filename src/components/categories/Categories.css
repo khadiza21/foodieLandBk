@@ -1,38 +1,22 @@
 .categories {
   height: 342px;
-  top: 950px;
-  left: 80px;
-  gap: 0px;
-  opacity: 0px;
 }
 .categoriesHeader h3 {
   width: 238px;
   height: 58px;
-  top: 952px;
-  left: 80px;
-  gap: 0px;
-  opacity: 0px;
-  font-family: Inter;
   font-size: 48px;
   font-weight: 600;
   line-height: 58.09px;
   letter-spacing: -0.04em;
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
   color: var(--neutral);
 }
 .categoriesHeader button {
   width: 200px;
   height: 60px;
-  top: 950px;
-  left: 1160px;
-  gap: 0px;
   border-radius: 16px;
-  opacity: 0px;
   background-color: var(--primary);
   color: var(--neutral);
-  font-family: Inter;
   font-size: 16px;
   font-weight: 600;
   line-height: 19.36px;
@@ -40,14 +24,10 @@
 }
 .categoryBox {
   height: 202px;
-  top: 1090px;
-  left: 80px;
 }
 .category {
   width: 180px;
   height: 202px;
-  top: 1090px;
-  left: 80px;
 }
 .category:hover {
   box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
@@ -56,24 +36,91 @@
 .category img {
   width: 100px;
   height: 100px;
-  top: 1090px;
-  left: 120px;
   backdrop-filter: blur(20px);
 }
 .category p {
   width: 81px;
   height: 22px;
-  top: 1240px;
-  left: 129px;
-  gap: 0px;
-  opacity: 0px;
-  font-family: Inter;
   font-size: 18px;
   font-weight: 600;
   line-height: 21.78px;
   letter-spacing: -0.02em;
   text-align: center;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
   color: var(--neutral);
-} 
+}
+@media (max-width: 1024px) {
+  .categories {
+    height: auto;
+  }
+  .categoriesHeader h3 {
+    width: auto;
+    height:auto;
+    font-size: 38px;
+    line-height: 48.09px;
+  }
+
+  .categoryBox {
+    height: auto;
+  }
+
+}
+@media (max-width: 768px) {
+  .categories {
+    height: auto;
+  }
+  .categoriesHeader h3 {
+    width: auto;
+    height:auto;
+    font-size: 38px;
+    line-height: 48.09px;
+  }
+
+  .categoryBox {
+    height: auto;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .categories {
+    height: auto;
+  }
+  .categoriesHeader h3 {
+    width: auto;
+    height:auto;
+    font-size: 28px;
+    line-height: 28.09px;
+  }
+
+  .categoryBox {
+    height: auto;
+  }
+  .categoriesHeader{
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+
+
+}
+
+@media (max-width: 320px) {
+  .categories {
+    height: auto;
+  }
+  .categoriesHeader h3 {
+    width: auto;
+    height:auto;
+    font-size: 18px;
+    line-height: 18.09px;
+  }
+
+  .categoryBox {
+    height: auto;
+  }
+  .categoriesHeader{
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+ 
+
+}
