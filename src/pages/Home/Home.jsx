@@ -3,6 +3,7 @@ import Categories from "../../components/categories/Categories";
 import Instagram from "../../components/Instagram/Instagram";
 import Newsletter from "../../components/Newsletter/Newsletter";
 import Recipes from "../../components/recipes/Recipes";
+import SpecialRecipes from "../../components/specialRecipe/SpecialRecipes";
 import Banner from "./Banner/Banner";
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
        <Recipes />
        <AboutKitchen />
        <Instagram />
+       <SpecialRecipes />
        <Newsletter />
         </>
     );

@@ -58,7 +58,7 @@ const InstaPost = ({ post }) => {
                     </div>
                 </div>
 
-                <div className="absolute top-16 right-2 bg-gray-800 text-white text-sm px-2 py-1 rounded-lg">
+                <div className="absolute top-18 right-2 bg-gray-800 text-white text-sm px-2 py-1 rounded-lg">
                     {`${activeImage}/${images.length}`}
                 </div>
 

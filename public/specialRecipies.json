@@ -1,0 +1,76 @@
+ [
+    {
+        "id": 1,
+        "image": "./specialRecipies/1.png",
+        "title": "Mixed Tropical Fruit Salad with Superfood Boosts ",
+        "time": 30,
+        "foodCategory": "Healthy",
+        "isFavorite": 1
+
+    },
+    {
+        "id": 2,
+        "image": "./specialRecipies/2.png",
+        "title": "Big and Juicy Wagyu Beef Cheeseburger",
+        "time": 30,
+        "foodCategory": "Western",
+        "isFavorite": 0
+
+    },
+    {
+        "id": 3,
+        "image": "./specialRecipies/3.png",
+        "title": "Healthy Japanese Fried Rice with Asparagus",
+        "time": 30,
+        "foodCategory": "Healthy",
+        "isFavorite": 0
+
+    },
+    {
+        "id": 4,
+        "image": "./specialRecipies/4.png",
+        "title": "Cauliflower Walnut Vegetarian Taco Meat",
+        "time": 30,
+        "foodCategory": "Eastern",
+        "isFavorite": 0
+
+    },
+    {
+        "id": 5,
+        "image": "./specialRecipies/5.png",
+        "title": "Rainbow Chicken Salad with Almond Honey Mustard Dressing",
+        "time": 30,
+        "foodCategory": "Healthy",
+        "isFavorite": 0
+
+    },
+    {
+        "id": 6,
+        "image": "./specialRecipies/6.png",
+        "title": "Barbeque Spicy Sandwiches with Chips ",
+        "time": 30,
+        "foodCategory": "Snack",
+        "isFavorite": 0
+
+    },
+    {
+        "id": 7,
+        "image": "./specialRecipies/7.png",
+        "title": "Firecracker Vegan Lettuce Wraps - Spicy! ",
+        "time": 30,
+        "foodCategory": "Seafood",
+        "isFavorite": 0
+
+    },
+    {
+        "id": 8,
+        "image": "./specialRecipies/8.png",
+        "title": "Chicken Ramen Soup with Mushroom ",
+        "time": 30,
+        "foodCategory": "Japanese",
+        "isFavorite": 0
+
+    }
+ 
+    
+]
