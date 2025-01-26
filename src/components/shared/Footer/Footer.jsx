@@ -3,17 +3,17 @@ const Footer = () => {
     return (
         <div className="container  mt-24">
             <footer className="footer footerOne py-5 flex flex-wrap md:flex-nowrap items-center justify-between border-b border-slate-200 gap-4">
-              
+
                 <div className="flex-1">
                     <h4 className="text-xl font-bold">
-                        Foodieland<span  style={{ color: "#FF7967" }} >.</span>
+                        Foodieland<span style={{ color: "#FF7967" }} >.</span>
                     </h4>
                     <p className="text-sm text-gray-500">
                         Lorem ipsum dolor sit amet, consectetur adipisicing.
                     </p>
                 </div>
 
-          
+
                 <nav className="flex-1 flex flex-wrap gap-4 justify-center md:justify-end">
                     <a className="link link-hover text-gray-700">Recipes</a>
                     <a className="link link-hover text-gray-700">Blog</a>

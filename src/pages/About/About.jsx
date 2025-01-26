@@ -10,7 +10,7 @@ const About = () => {
             <AboutServices />
             <BriefDescription />
             <Contact />
-            
+
         </div>
     );
 };

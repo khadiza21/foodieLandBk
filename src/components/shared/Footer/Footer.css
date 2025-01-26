@@ -3,6 +3,7 @@
     flex-direction: column;
   }
 }
+
 @media (max-width: 320px) {
   .footerSocialIcon {
     width: 100%;

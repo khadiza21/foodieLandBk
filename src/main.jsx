@@ -12,12 +12,12 @@ import { router } from './Router/Route.jsx';
 createRoot(document.getElementById('root')).render(
 
   <StrictMode>
-    
-      <div >
-        <RouterProvider router={router} />
-      </div>
-      <ToastContainer />
- 
+
+    <div >
+      <RouterProvider router={router} />
+    </div>
+    <ToastContainer />
+
 
   </StrictMode>
 

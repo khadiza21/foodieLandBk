@@ -1,9 +1,11 @@
 .instagram {
   background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #e7f9fd 100%);
 }
+
 .instagramHeader {
   text-align: center;
 }
+
 .instagramHeader h3 {
   font-family: Inter;
   font-size: 48px;
@@ -13,6 +15,7 @@
   text-align: center;
   color: var(--neutral);
 }
+
 .instagramHeader p {
   font-family: Inter;
   font-size: 16px;
@@ -21,6 +24,7 @@
   color: var(--secondary);
   text-align: center;
 }
+
 .instagram .visitButton {
   width: 229px;
   height: 60px;
@@ -28,37 +32,41 @@
   background-color: var(--neutral);
   color: var(--base-100);
 }
- @media (max-width: 1024px) {
+
+@media (max-width: 1024px) {
   .instagramHeader h3 {
     font-size: 38px;
     font-weight: 600;
     line-height: 48.09px;
   }
- }
+}
+
 @media (max-width: 768px) {
   .instagramHeader h3 {
 
     font-size: 38px;
     font-weight: 600;
     line-height: 48.09px;
-  
+
   }
 }
+
 @media (max-width: 480px) {
   .instagramHeader h3 {
 
     font-size: 28px;
     font-weight: 600;
     line-height: 28.09px;
-  
+
   }
 }
+
 @media (max-width: 320px) {
   .instagramHeader h3 {
 
     font-size: 18px;
     font-weight: 600;
     line-height: 18.09px;
-  
+
   }
 }

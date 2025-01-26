@@ -16,15 +16,15 @@ const AboutKitchen = () => {
                     </div>
                     <figure className='aboutKitchenRight'>
                         <img
-                        className='h-full w-full'
+                            className='h-full w-full'
                             src={aboutKitchen}
                             alt="about Own Kitchen" />
                     </figure>
 
                 </div>
             </div>
-            
-            </div>
+
+        </div>
     );
 };
 

@@ -7,8 +7,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 [data-theme="light"] {
   --primary: #e7fafe;
   --secondary: #9c9c9c;

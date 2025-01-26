@@ -1,6 +1,7 @@
 .categories {
   height: 342px;
 }
+
 .categoriesHeader h3 {
   width: 238px;
   height: 58px;
@@ -11,6 +12,7 @@
   text-align: left;
   color: var(--neutral);
 }
+
 .categoriesHeader button {
   width: 200px;
   height: 60px;
@@ -22,22 +24,27 @@
   line-height: 19.36px;
   text-align: left;
 }
+
 .categoryBox {
   height: 202px;
 }
+
 .category {
   width: 180px;
   height: 202px;
 }
+
 .category:hover {
   box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
     rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
 }
+
 .category img {
   width: 100px;
   height: 100px;
   backdrop-filter: blur(20px);
 }
+
 .category p {
   width: 81px;
   height: 22px;
@@ -48,13 +55,15 @@
   text-align: center;
   color: var(--neutral);
 }
+
 @media (max-width: 1024px) {
   .categories {
     height: auto;
   }
+
   .categoriesHeader h3 {
     width: auto;
-    height:auto;
+    height: auto;
     font-size: 38px;
     line-height: 48.09px;
   }
@@ -64,13 +73,15 @@
   }
 
 }
+
 @media (max-width: 768px) {
   .categories {
     height: auto;
   }
+
   .categoriesHeader h3 {
     width: auto;
-    height:auto;
+    height: auto;
     font-size: 38px;
     line-height: 48.09px;
   }
@@ -85,9 +96,10 @@
   .categories {
     height: auto;
   }
+
   .categoriesHeader h3 {
     width: auto;
-    height:auto;
+    height: auto;
     font-size: 28px;
     line-height: 28.09px;
   }
@@ -95,7 +107,8 @@
   .categoryBox {
     height: auto;
   }
-  .categoriesHeader{
+
+  .categoriesHeader {
     flex-direction: column;
     gap: 2.5rem;
   }
@@ -107,9 +120,10 @@
   .categories {
     height: auto;
   }
+
   .categoriesHeader h3 {
     width: auto;
-    height:auto;
+    height: auto;
     font-size: 18px;
     line-height: 18.09px;
   }
@@ -117,10 +131,11 @@
   .categoryBox {
     height: auto;
   }
-  .categoriesHeader{
+
+  .categoriesHeader {
     flex-direction: column;
     gap: 2.5rem;
   }
- 
+
 
 }

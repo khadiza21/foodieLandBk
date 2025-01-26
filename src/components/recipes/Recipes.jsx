@@ -5,14 +5,14 @@ import add from '../../assets/images//01.png'
 
 const Recipes = () => {
 
-     const [recipetList, setRecipetList] = useState([]);
+    const [recipetList, setRecipetList] = useState([]);
 
-  
-      useEffect(() => {
+
+    useEffect(() => {
         fetch("recipes.json")
-          .then((res) => res.json())
-          .then((data) => setRecipetList(data));
-      }, []);
+            .then((res) => res.json())
+            .then((data) => setRecipetList(data));
+    }, []);
     return (
         <div id="recipes" className="mb-24">
 
@@ -21,9 +21,9 @@ const Recipes = () => {
                     <h3 className="my-5">Simple and tasty recipes</h3>
                     <p className="mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem sint fuga quas obcaecati veniam deserunt.</p>
                 </div>
-               
-      
-                 <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
+
+
+                <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
                     {recipetList.map((item, index) =>
                         item.isAd ? (
 
@@ -44,13 +44,13 @@ const Recipes = () => {
                                 image={item.image}
                                 title={item.title}
                                 time={item.time}
-                                category={item.foodCategory} 
-                                isFavorite={item.isFavorite}    
+                                category={item.foodCategory}
+                                isFavorite={item.isFavorite}
                             />
-                       
+
                         )
                     )}
-                </div> 
+                </div>
 
 
 

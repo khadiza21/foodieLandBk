@@ -1,10 +1,12 @@
 .aboutKitchen {
   height: 597px;
 }
+
 .aboutKitchenLeft {
   width: 90%;
   border-radius: 16px;
 }
+
 .aboutKitchenLeft h3 {
   font-family: Inter;
   font-size: 48px;
@@ -14,6 +16,7 @@
   text-align: left;
   color: #000000;
 }
+
 .aboutKitchenLeft p {
   font-size: 16px;
   font-weight: 400;
@@ -21,6 +24,7 @@
   text-align: left;
   color: var(--secondary);
 }
+
 .aboutKitchenLeft button {
   width: 180px;
   height: 60px;
@@ -28,10 +32,12 @@
   background-color: var(--neutral);
   color: var(--base-100);
 }
+
 .aboutKitchenRight {
   width: 90%;
   height: 597px;
 }
+
 .aboutKitchenRight img {
   width: 100%;
   height: 90%;
@@ -43,13 +49,16 @@
     height: auto;
     flex-direction: column;
   }
+
   .aboutKitchenLeft {
     width: 100%;
   }
+
   .aboutKitchenLeft h3 {
     font-size: 38px;
     line-height: 48.09px;
   }
+
   .aboutKitchenLeft p {
     font-size: 14px;
     line-height: 18px;
@@ -59,24 +68,29 @@
     width: 100%;
     height: 597px;
   }
+
   .aboutKitchenRight img {
     width: 100%;
     height: 90%;
     object-fit: cover;
   }
 }
+
 @media (max-width: 768px) {
   .aboutKitchen {
     height: auto;
     flex-direction: column;
   }
+
   .aboutKitchenLeft {
     width: 100%;
   }
+
   .aboutKitchenLeft h3 {
     font-size: 38px;
     line-height: 48.09px;
   }
+
   .aboutKitchenLeft p {
     font-size: 14px;
     line-height: 14px;
@@ -86,6 +100,7 @@
     width: 100%;
     height: 597px;
   }
+
   .aboutKitchenRight img {
     width: 100%;
     height: 90%;
@@ -98,13 +113,16 @@
     height: auto;
     flex-direction: column;
   }
+
   .aboutKitchenLeft {
     width: 100%;
   }
+
   .aboutKitchenLeft h3 {
     font-size: 28px;
     line-height: 28.09px;
   }
+
   .aboutKitchenLeft p {
     font-size: 12px;
     line-height: 12px;
@@ -114,6 +132,7 @@
     width: 100%;
     height: 597px;
   }
+
   .aboutKitchenRight img {
     width: 100%;
     height: 90%;
@@ -126,13 +145,16 @@
     height: auto;
     flex-direction: column;
   }
+
   .aboutKitchenLeft {
     width: 100%;
   }
+
   .aboutKitchenLeft h3 {
     font-size: 18px;
     line-height: 18.09px;
   }
+
   .aboutKitchenLeft p {
     font-size: 12px;
     line-height: 12px;
@@ -142,6 +164,7 @@
     width: 100%;
     height: 597px;
   }
+
   .aboutKitchenRight img {
     width: 100%;
     height: 90%;

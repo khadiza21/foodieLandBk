@@ -6,13 +6,13 @@ import Footer from "../components/shared/Footer/Footer";
 const Main = () => {
 
     const location = useLocation();
-    const hideHeaderFooter = ["/404", "/some-other-path"];
+    const hideHeaderFooter = ["/404","*"];
     const shouldHideHeaderFooter = hideHeaderFooter.includes(location.pathname);
     return (
         <div>
-           {!shouldHideHeaderFooter &&  <Navbar />} 
-           <Outlet />
-           {!shouldHideHeaderFooter &&  <Footer />} 
+            {!shouldHideHeaderFooter && <Navbar />}
+            <Outlet />
+            {!shouldHideHeaderFooter && <Footer />}
 
         </div>
     );

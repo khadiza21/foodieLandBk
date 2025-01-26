@@ -1,10 +1,11 @@
 @media (max-width: 480px) {
-    .navbarSocialIcon{
-        display:none;
+    .navbarSocialIcon {
+        display: none;
     }
 }
+
 @media (max-width: 320px) {
-    .navbarSocialIcon{
-        display:none;
+    .navbarSocialIcon {
+        display: none;
     }
 }
