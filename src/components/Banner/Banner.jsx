@@ -49,7 +49,7 @@ const Banner = () => {
 
     return (
         <>
-            <div className="w-full mb-24 banner relative">
+            <div className="w-full py-24 banner relative">
                 <Slider {...settings}>
                     {slides.map((slide) => (
                         <div key={slide.id} className="py-4">

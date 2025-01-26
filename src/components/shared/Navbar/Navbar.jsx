@@ -6,9 +6,9 @@ const Navbar = () => {
     fontWeight: isActive ? "bold" : "normal",
   });
   return (
-    <div>
-      <div className="container navbar bg-base-100">
-        <div className="navbar-start">
+    <div className="fixed top-0  w-full z-50 bg-base-100 ">
+      <div className="container navbar">
+        <div className="navbar-start ">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg
