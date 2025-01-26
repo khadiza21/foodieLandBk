@@ -18,7 +18,7 @@
 - The page should match the overall design style and include at least:
 - A brief description of the app or a fictional company.
 - Any relevant images or icons (exported from Figma if necessary).
-- Contact information (e.g., email, phone, or social links).
+- Contact information (e.g., email, phone, or social links). ;;;;;;;;;;;;;;;;
 
 4. Routing:
 - Use React Router (or Next.js pages for routing if applicable) to enable navigation between the main page and the "About Us" page.

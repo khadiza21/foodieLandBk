@@ -1,4 +1,3 @@
-import "./Contact.css";
 import vegetables from "../../assets/images/contact.png";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";

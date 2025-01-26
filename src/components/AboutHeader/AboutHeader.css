@@ -1,0 +1,41 @@
+.aboutHeader{
+    background-color: var(--primary);
+    border-radius: 20px;
+    position: relative;
+  }
+  .aboutHeaderImage {
+    background-image: url("../../assets/images/newsletter-1.png"),
+      url("../../assets/images/Photo-plate.png");
+    background-position: bottom left, bottom right;
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain, contain;
+    border-radius: 20px;
+  }
+
+  @media (max-width: 768px) {
+  
+    .aboutHeaderImage {
+      background-image: url("../../assets/images/newsletter-1.png");
+    }
+    
+  
+    
+  }
+  
+  @media (max-width: 480px) {
+
+    .aboutHeaderImage {
+      background-image: url("../../assets/images/newsletter-1.png");
+    }
+    
+  }
+  
+  @media (max-width: 320px) {
+ 
+    .aboutHeaderImage {
+      background-image: url("../../assets/images/newsletter-1.png");
+    }
+    
+  
+  }
+  
