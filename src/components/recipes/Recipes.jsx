@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Recipe from "./Recipe";
 import './Recipes.css'
-import add from '../../assets/images/recipes/01.png'
+import add from '../../assets/images//01.png'
 
 const Recipes = () => {
 

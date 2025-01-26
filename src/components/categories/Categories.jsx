@@ -1,47 +1,23 @@
 
+import { useState } from 'react';
 import './Categories.css'
+import { useEffect } from 'react';
 
 const Categories = () => {
 
 
-    const categories = [
-        {
-            id: 1,
-            image: "../../../public/categories/image 25.png",
-            name: "Breakfast",
-            gradient: "180deg, rgba(112, 130, 70, 0) 0%, rgba(112, 130, 70, 0.1) 100%"
-        },
-        {
-            id: 2,
-            image: "../../../public/categories/Group 879.png",
-            name: "Vegan",
-            gradient: "180deg, rgba(108, 198, 63, 0) 0%, rgba(108, 198, 63, 0.1) 100%"
-        },
-        {
-            id: 3,
-            image: "../../../public/categories/image 21.png",
-            name: "Meat",
-            gradient: "180deg, rgba(204, 38, 27, 0) 0%, rgba(204, 38, 27, 0.1) 100%"
-        },
-        {
-            id: 4,
-            image: "../../../public/categories/image 22.png",
-            name: "Dessert",
-            gradient: "180deg, rgba(240, 158, 0, 0) 0%, rgba(240, 158, 0, 0.1) 100%"
-        },
-        {
-            id: 5,
-            image: "../../../public/categories/image 23.png",
-            name: "Lunch",
-            gradient: "180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 100%"
-        },
-        {
-            id: 6,
-            image: "../../../public/categories/image 24.png",
-            name: "Chocolate",
-            gradient: "180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 100%"
-        }
-    ]
+ 
+
+const [categories, setcategories] = useState([]);
+
+
+
+
+    useEffect(() => {
+        fetch("categoris.json")
+            .then((res) => res.json())
+            .then((data) => setcategories(data));
+    }, []);
 
 
     return (

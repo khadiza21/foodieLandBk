@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "../src/assets/images/recipes/1.png",
+    "image": "./recipes/1.png",
     "title": "Big and Juicy Wagyu Beef Cheeseburger",
     "time": 30,
     "foodCategory": "Snack",
@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "image": "../src/assets/images/recipes/2.png",
+    "image": "./recipes/2.png",
 
     "title": "Fresh Lime Roasted Salmon with Ginger Sauce",
     "time": 30,
@@ -18,7 +18,7 @@
   },
   {
     "id": 3,
-    "image": "../src/assets/images/recipes/3.png",
+    "image": "./recipes/3.png",
     "title": "Strawberry Oatmeal Pancake with Honey Syrup",
     "time": 30,
     "foodCategory": "Healthy",
@@ -26,7 +26,7 @@
   },
   {
     "id": 4,
-    "image": "../src/assets/images/recipes/4.png",
+    "image": "./recipes/4.png",
     "title": "Fresh and Healthy Mixed Mayonnaise Salad",
     "time": 30,
     "foodCategory": "Healthy",
@@ -34,7 +34,7 @@
   },
   {
     "id": 5,
-    "image": "../src/assets/images/recipes/5.png",
+    "image": "./recipes/5.png",
     "title": "Chicken Meatballs with Cream Cheese",
     "time": 30,
     "foodCategory": "Meat",
@@ -45,7 +45,7 @@
   },
   {
     "id": 6,
-    "image": "../src/assets/images/recipes/6.png",
+    "image": "./recipes/6.png",
     "title": "Fruity Pancake with Orange & Blueberry",
     "time": 30,
     "foodCategory": "Sweet",
@@ -53,7 +53,7 @@
   },
   {
     "id": 7,
-    "image": "../src/assets/images/recipes/7.png",
+    "image": "./recipes/7.png",
     "title": "The Best Easy One Pot Chicken and Rice",
     "time": 30,
     "foodCategory": "Snack",
@@ -61,7 +61,7 @@
   },
   {
     "id": 8,
-    "image": "../src/assets/images/recipes/8.png",
+    "image": "./recipes/8.png",
     "title": "The Creamiest Creamy Chicken and Bacon Pasta",
     "time": 30,
     "foodCategory": "Noodles",
